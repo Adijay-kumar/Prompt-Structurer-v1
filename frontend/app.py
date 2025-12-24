@@ -31,7 +31,7 @@ if st.button("Enhance Prompt", type="primary"):
                 response = requests.post(
                     f"{BACKEND_URL}/enhance",
                     json=payload,
-                    timeout=360
+                    timeout=600
                 )
                 response.raise_for_status()
             except Exception as e:

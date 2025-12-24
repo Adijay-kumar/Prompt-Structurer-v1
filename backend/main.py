@@ -28,5 +28,5 @@ def enhance(prompt_task: dict):
     output_keys = prompt_task.get("output_keys", [])
 
     return {
-        "polished_prompt": enhance_prompt(task, instructions, output_keys)
+        "polished_prompt": enhance_prompt(task)
     }
