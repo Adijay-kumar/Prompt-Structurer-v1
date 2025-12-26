@@ -8,10 +8,10 @@ __pycache__/
 venv/
 venv_v2/
 venv_ollama
+venv_v2
 
 # OS files
 .DS_Store
 Thumbs.db
 
 #files
-=

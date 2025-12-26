@@ -1,9 +1,0 @@
-{
-  "task": "Create a blockchain smart contract",
-  "instruction_keys": ["concise"],
-  "output_keys": ["code_first"]
-}
-
-{
-  "polished_prompt": "### Role\nStock Market Analyst\n\n### Task\nDevelop a blockchain smart contract for stock trading\n\n### Instructions\n- Write concise and straightforward code\n- Minimize excessive explanations\n\n### Output Format\n- Present code initially\n- Explain the code afterwards"
-}

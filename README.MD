@@ -114,7 +114,50 @@ Final Enhanced Prompt
 
 ``` 
  
+## Installation & Setup
 
+### 1. Clone the repository
+
+> **Note:** Make sure Git is installed on your system. You can download it from [https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+
+```bash
+git clone https://github.com/Adijay-kumar/Prompt-Structurer-v1.git
+cd Prompt-Structurer-v1
+```
+### 2. Create a virtual environment
+
+#### It's recommended to use venv to avoid conflicts:
+
+```bash
+python -m venv venv
+```
+
+### 3. Activate the virtual environment
+
+#### Windows
+```bash
+.\venv\Scripts\activate
+```
+
+#### Mac/Linux
+```bash
+source venv/bin/activate
+```
+### 4. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 5. Run the backend with Uvicorn
+
+```bash
+uvicorn backend:main --reload
+```
+### 6. Run the Streamlit frontend
+
+```bash
+streamlit run app.py
+```
 
 ## Limitations
 
