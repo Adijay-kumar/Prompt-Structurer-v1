@@ -1,6 +1,7 @@
-fastapi
-uvicorn
-streamlit
-ollama
-requests
-
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.30
+ollama>=0.1.7
+datasets>=2.18
+requests>=2.31
+scikit-learn>=1.4
